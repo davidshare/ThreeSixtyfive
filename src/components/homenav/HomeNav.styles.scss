@@ -1,0 +1,26 @@
+@import '../../assets/styles/variables.scss';
+
+.home-nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.home-nav__brand{
+  font-family: $brand-font;
+  font-size: 1.8em;
+}
+
+.home-nav__auth-buttons{
+  margin-left: auto;
+}
+
+.home-nav__auth-buttons > span{
+  margin-left: 30px;
+}
+
+.home-nav__auth-buttons > span.signup > a{
+  padding: 10px 20px;
+  background-color: $light-grey;
+  border-radius: 50px;
+}
