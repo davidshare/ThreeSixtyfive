@@ -1,0 +1,80 @@
+@import '../../assets/styles/variables.scss';
+
+.homepage-container{
+  padding: 0 5vw;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  .main{
+    display: flex;
+
+    .intro-group{
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-top: 40px;
+
+      .page-title{
+        font-size: 2.7em;
+        line-height: 1.5;
+      }
+
+      .features{
+        list-style-type: none;
+        margin-top: 40px;
+
+        .feature-bullets{
+          margin-right: 10px;
+        }
+
+        .feature-item{
+          margin-bottom: 15px;
+        }
+      }
+
+      .get-started{
+        margin-top: 80px;
+
+        a{
+          background-color: $blue;
+          padding: 20px 50px;
+          border-radius: 50px;
+          color: $white;
+        }
+
+        a:hover{
+          background-color: $light-grey;
+          color: $black;
+        }
+      }
+    }
+
+    .card-group{
+      padding-left: 50px;
+      flex: 1.3;
+      position: relative;
+
+      .top-box{
+        position: absolute;
+        left: 32%;
+      }
+
+      .right-box{
+        position: absolute;
+        left: 60%;
+        top: 60%;
+
+        .dots{
+          margin-top: 130px;
+        }
+      }
+
+      .left-box{
+        position: absolute;
+        top: 60%;
+      }
+    }
+  }
+}
+
